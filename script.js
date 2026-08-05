@@ -31,11 +31,11 @@ const guestTitle = document.getElementById("guestName");
 
 if (guest && guest.trim() !== "") {
 
-    guestTitle.textContent = "Дорогие " + decodeURIComponent(guest) + "!";
+    guestTitle.textContent = "Дорогой " + decodeURIComponent(guest) + "!";
 
 } else {
 
-    guestTitle.textContent = "Дорогие родные и друзья!";
+    guestTitle.textContent = "Дорогой Сергей!";
 
 }
 
